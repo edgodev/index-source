@@ -1,0 +1,9 @@
+name: edgodev
+nextjs:
+    packageManager: npm
+    path: .
+    scripts:
+        deploy:
+            - pnpm install
+region: us-east-1
+yamlVersion: 2
